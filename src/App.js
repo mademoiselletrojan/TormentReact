@@ -1,15 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 function App() {
-  let likes = 5;
+  const [likes, setLikes] = useState(5);
 
   function increment() {
-    likes += 1;
-    console.log(likes);
+    setLikes(likes + 1);
   }
   function decrement() {
-    likes -= 1;
-    console.log(likes);
+    setLikes(likes - 1);
   }
 
   return (
