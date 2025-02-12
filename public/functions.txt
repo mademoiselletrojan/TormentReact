@@ -50,7 +50,7 @@ function App() {
 
 export default App;
 __________________________________
-//Обрработчик состояния onChange
+//Обработчик состояния onChange (event)
 import React, { useState } from "react";
 
 function App() {
