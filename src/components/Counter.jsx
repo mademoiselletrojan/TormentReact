@@ -21,3 +21,6 @@ const Counter = () => {
 };
 
 export default Counter;
+
+
+//in app.js <Counter/>
